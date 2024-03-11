@@ -10,6 +10,8 @@ public class Farmer {
     public Farmer() {
         this.flowers = new ArrayList<>();
         this.animals = new ArrayList<>();
+        this.lands = new ArrayList<>();
+        this.finances = 1000.0;
     }
 
     public void addFlower(Flower flower) {
